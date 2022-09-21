@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    width: 100vw;
+    height:  100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.worldatlas.com%2Farticles%2Fbrightest-stars.html&psig=AOvVaw0BXzoO9du1alqzREl6Bkts&ust=1663836886783000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMD59ZTDpfoCFQAAAAAdAAAAABAD");
+    background-repeat: no-repeat;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+}
+.digital-clock{ 
+    color: black;
+    font-size: 100px;
+}
+img {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+.date {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
